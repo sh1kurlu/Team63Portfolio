@@ -1,1 +1,95 @@
+body {
+    margin: 1;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(ada1.jpeg);
+}
 
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.maintab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align:left;
+    border-radius: 10px;
+    font-size: 50px
+    ; /* Center the text in the maintab */
+}
+
+.maintab li {
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 255);
+    
+    border-radius: 25px; /* Display list items in a line */
+}
+
+.maintab li a {
+    display: block;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.about {
+    background-color: #ffffff; /* Set background color for 'About' */
+    border-radius: 10px;
+    color:black;
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+     /* Add rounded borders */
+}
+
+.uni {
+    background-color: #ffffff; /* Set background color for 'Our University' */
+    border-radius: 10px;
+    color:black;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;/* Add rounded borders */
+}
+
+.proj {
+    background-color: #ffffff; /* Set background color for 'Projects' */
+    border-radius: 12px; 
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+
+    color: black;/* Add rounded borders */
+}
+
+.maintab li:hover a {
+    background-color: #555; /* Hover background color for all items */
+}
+
+.intro {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 90px;
+    margin-top: 230px;
+    margin-left:640px;
+    font-size: 150px;
+    color:aliceblue;
+    box-shadow:10px #000000
+}
+
+@media only screen and (max-width: 600px) {
+    .maintab li {
+        display: block;
+        width: 100%; /* Make each list item take full width on smaller screens */
+    }
+}
