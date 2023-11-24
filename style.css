@@ -3,6 +3,24 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background-image: url(ada1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+::selection {
+    background-color: rgba(0, 0, 0, 0.574);
+    color: white;
+}
+
+/* For Firefox */
+::-moz-selection {
+    background-color: red;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
 }
 
 .container {
@@ -38,22 +56,26 @@ body {
 }
 
 .about {
-     /* Set background color for 'About' */
     border-radius: 10px;
+    font-size: 50px;
+    transition: font-size 0.3s ease-in-out;
     color:black;
     font-family: 'Bebas Neue', sans-serif;
 font-family: 'Jost', sans-serif;
 font-family: 'Lexend', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Outfit', sans-serif;
-     /* Add rounded borders */
 }
-
+.about:hover{
+    font-size:54px;
+}
 .uni {
     
     border-radius: 10px;
     color:black;
     font-size: 50px;
+    transition: font-size 0.3s ease-in-out;
+
     font-family: 'Bebas Neue', sans-serif;
 font-family: 'Jost', sans-serif;
 font-family: 'Lexend', sans-serif;
@@ -61,10 +83,16 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Outfit', sans-serif;
 }
 
+.uni:hover {
+    font-size: 54px;
+  }
+
 .proj {
      
     border-radius: 12px; 
+    font-size: 50px;
     font-family: 'Bebas Neue', sans-serif;
+    transition: font-size 0.3s ease-in-out;
 font-family: 'Jost', sans-serif;
 font-family: 'Lexend', sans-serif;
 font-family: 'Montserrat', sans-serif;
@@ -72,7 +100,9 @@ font-family: 'Outfit', sans-serif;
 
     color: black;
 }
-
+.proj:hover{
+    font-size: 54px;
+}
 .maintab li:hover a {
     background-color: #220b0b; 
 }
@@ -85,7 +115,8 @@ font-family: 'Outfit', sans-serif;
     margin-left:25px;
     font-size: 170px;
     color:aliceblue;
-    box-shadow:10px #fcfcfc
+    box-shadow:10px #fcfcfc;
+    
 }
 
 @media only screen and (max-width: 600px) {
