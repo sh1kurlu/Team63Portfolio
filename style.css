@@ -74,7 +74,7 @@ font-family: 'Outfit', sans-serif;
 }
 
 .maintab li:hover a {
-    background-color: #555; 
+    background-color: #220b0b; 
 }
 
 .intro {
@@ -85,7 +85,7 @@ font-family: 'Outfit', sans-serif;
     margin-left:25px;
     font-size: 170px;
     color:aliceblue;
-    box-shadow:10px #000000
+    box-shadow:10px #fcfcfc
 }
 
 @media only screen and (max-width: 600px) {
