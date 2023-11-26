@@ -115,10 +115,9 @@ font-family: 'Outfit', sans-serif;
 .intro {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-    font-size: 150px;
     margin-top: 140px;
     margin-left:25px;
-    font-size: 170px;
+    font-size: 120px;
     color:aliceblue;
     box-shadow:10px #fcfcfc;
     
@@ -151,4 +150,13 @@ font-family: 'Outfit', sans-serif;
         display: block;
         width: 100%; 
     }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#bottom {
+    padding: 50px;
+    background-color: #f0f0f0;
 }
