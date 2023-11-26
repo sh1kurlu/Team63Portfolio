@@ -123,31 +123,30 @@ footer {
     width: 100%;
 }
     </style>
-    <img src = "media/menu.png">
+    
     <style>
         body{
             background-image: url(projbg.png);
             position: relative;
             background-repeat: no-repeat;
-      
+           
             
         }
+        
     </style>
     <h1> Our Mission is <br> to Spread Innovation! </h1>
     
     <p> Here some of the projects conducted by <i>Code Syndicate</i></p>
+    <hr>
+    <h4> Hour Of Code</h4>
+    <h6>On November 7, 2023, our team (Team 63) organized a transformative “Hour of Code” event at Zangilan (Karabakh) Secondary School No 24, aimed at enhancing the learning experience for students in a background with limited technical support and resources.  
 
-    <div class="rounded-container">
-        <h2>Hour Of Code</h2>
-        <h4>On November 7, 2023, our team (Team 63) organized a transformative “Hour of Code” event at Zangilan (Karabakh) Secondary School No 24, aimed at enhancing the learning experience for students in a background with limited technical support and resources.The goal was to introduce them to the exciting world of coding and provide them with an engaging learning experience. </h4>
+ 
+
+        The goal was to introduce them to the exciting world of coding and provide them with an engaging learning experience. </h6>
+
         
-        
-    
-    
-    </div>
-    
-    
-    <div class="container">
+
         <div class="toggle-panel">
             <div id="toggle-arrow">&#x2192;</div>
             <p id="panel-text">Supported By <a href="https://www.ada.edu.az/en/about/ada-university"><img src = "/media/ada_logo_white.png" alt="ADA Logo" width="40px" height="30px"></a> </p>
@@ -155,6 +154,25 @@ footer {
         </div>
     </div>
 
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/media/Pictures/photo2.jpeg" alt="Image 1"></div>
+            <div class="swiper-slide"><img src="/media/Pictures/photo1.jpeg" alt="Image 2"></div>
+            <div class="swiper-slide"><img src="/media/Pictures/photo3.jpeg" alt="Image 3"></div>
+            <div class="swiper-slide"><img src="/media/Pictures/photo4.jpeg" alt="Image 4"></div>
+            <hr>
+            <div class="swiper-slide"><video src="/media/Pictures/photo4.jpeg" alt="Image 4"></div>
+
+            
+            <!-- Add more slides as needed -->
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    
    
 
     
@@ -164,7 +182,16 @@ footer {
     </footer>
 <style>
     body {
-    background-color: #000000;    
+    background-color: #000000;
+    
+    .swiper-container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .swiper-slide img {
+            width: 100%;
+        }
 
 }
 
@@ -243,29 +270,62 @@ h2{
 }
 
 h4{
-    font-size: 10px;
-    margin-right: 100px;
+    font-size: 70px;
+    text-align: center;
+    text-decoration:overline;
+    text-decoration: underline;
+    
 }
 
-.rounded-container {
-    margin-left: 100px;
-    width: 1200px;
-    height: 440px;
-    background-color: #000; 
-    border: 2px solid #fff; 
-    border-radius: 10px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white; 
-  }
+h6{
+    font-size: 40px;
+    text-align: center;
+}
+section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(220, 215, 215, 0.822);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        ::selection {
+    background-color: rgba(99, 96, 96, 0.574);
+    color: your-desired-text-color;
+}
+
+.image-container {
+            text-align: center;
+            background-color: #2b2a2ac1; /* Set the background color for the image container */
+            padding: 10px; /* Add padding to the container */
+        }
+
+        .image-container img {
+            width: 41.5%; /* Adjust the width as needed */
+            margin: 10px;
+        }
+
+
 
 
 
 
 </style>
-    
-    
+
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
     
 </body>
 </html>

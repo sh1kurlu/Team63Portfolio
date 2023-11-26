@@ -14,3 +14,4 @@ const togglePanel = document.querySelector('.toggle-panel');
 togglePanel.addEventListener('click', () => {
     togglePanel.classList.toggle('panel-hidden');
 });
+
